@@ -247,6 +247,18 @@ justify-content: center;
         flex: 1 1 calc(50% - 40px);
         margin: 20px;
     }
+
+    /* Fragmento agregado para ajustar la barra de navegación */
+    header nav {
+        display: flex;
+        justify-content: space-around; /* Distribuye los elementos horizontalmente */
+        width: 100%; /* Hace que la barra de navegación ocupe toda la pantalla */
+    }
+
+    header a {
+        flex: 1; /* Hace que los elementos ocupen todo el espacio disponible */
+        text-align: center; /* Centra el texto dentro de cada elemento */
+    }
 }
 
 /* Media Queries para Escritorio */
